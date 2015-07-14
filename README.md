@@ -1,5 +1,6 @@
-# Swifost
-=====
+Swifost
+====
+
 Lightweight and awesome CMS without database.
 
 ```
