@@ -3,7 +3,7 @@
 /**
  * Swifost
  *
- * Lightweight and awesome CMS without database, using the magic of the files.
+ * Lightweight static site generator in PHP without a database.
  *
  *  @package     Swifost
  *  @version     1.0.0
@@ -38,7 +38,7 @@ class Swifost {
      * @example Swifost::DESCRIPTION;
      * @var string
      */
-    const DESCRIPTION = "Lightweight and awesome CMS without database.";
+    const DESCRIPTION = "Lightweight static site generator in PHP without a database.";
 
     /**
      * The version of Swifost

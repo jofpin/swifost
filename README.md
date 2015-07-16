@@ -3,7 +3,7 @@ Swifost
 
 [![Join the chat at https://gitter.im/jofpin/swifost](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jofpin/swifost?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Lightweight and awesome CMS without database.
+Lightweight static site generator in PHP without a database
 
 ```
 Version: 1.0.0
