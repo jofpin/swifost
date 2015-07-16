@@ -49,14 +49,6 @@ class Swifost {
     const VERSION = "1.0.0";
 
     /**
-     * The generator of Swifost
-     *
-     * @example Swifost::GENERATOR;
-     * @var string
-     */
-    const GENERATOR = self::SOFTWARE." ".self::VERSION;
-
-    /**
      * The separator of Swifost
      *
      * @var string
