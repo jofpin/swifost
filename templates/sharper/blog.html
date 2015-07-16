@@ -1,0 +1,26 @@
+<?php include "header.html" ?>
+<?php include "extra.html" ?>
+
+<div class="Sharper-line">
+  <span class="Sharper-line--unique"></span>
+  <span class="Sharper-line--text">All posts</span>
+</div>
+
+    <?php Swifost::push()->runDeed("template_content_before"); ?>
+  	<?php
+			$posts = Swifost::push()->getPages(CONTENT_PATH . "/blog/", "date", "DESC", array("404","index"));
+			foreach($posts as $post) {
+				echo "\n";
+				echo '<article class="Sharper-post">';
+			    echo '<a class="Sharper-post--title" href="'.$config["url"]."/blog/".$post["slug"].'">'.$post["title"].'</a>
+			    <time>'.$post["date"].'</time>  
+			    '.$post["content-summary"];
+			    echo '<a href="'.$config["url"]."/blog/".$post["slug"].'" class="btn-read-more">Read more <span class="arrow-right">»</span></a>';
+			    echo '</article>';
+			    echo "\n";
+			}
+    ?>
+
+    <?php Swifost::push()->runDeed("theme_content_after"); ?>
+
+<?php include "footer.html" ?>

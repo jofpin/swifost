@@ -1,0 +1,12 @@
+<?php include "header.html" ?>
+
+<div class="Sharper-post--read">
+    <?php Swifost::push()->runDeed("template_content_before"); ?>
+      <h1 class="Sharper-post--read---title"><?php Swifost::go($page["title"]); ?></h1>
+      <time><?php Swifost::go($page["date"]);  ?></time>
+      <div class="Sharper-post--read---content"><?php Swifost::go($page["content"]); ?></div>   
+      <?php Swifost::push()->runDeed("template_content_after"); ?>
+
+</div>
+
+<?php include "footer.html";  ?>

@@ -1,0 +1,28 @@
+###############################
+# Swifost > htaccess settings #
+###############################
+
+# Charset utf-8
+AddDefaultCharset UTF-8
+
+# Do not show the directory listing
+Options -Indexes
+
+# PHP 5, Apache 1 and 2.
+<IfModule mod_php5.c>
+	php_flag magic_quotes_gpc     off
+	php_flag magic_quotes_sybase  off
+	php_flag register_globals     off
+</IfModule>
+
+
+# Configuration rewrite rules.
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	
+	RewriteBase /%url%/
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php [QSA,L]
+	
+</IfModule>

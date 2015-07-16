@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><?php Swifost::go($page["title"]); ?></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="<?php Swifost::go(Swifost::GENERATOR); ?>"/>
+    <meta name="description" content="<?php Swifost::go($page["description"]); ?>">
+    <meta name="keywords" content="<?php Swifost::go($page["keywords"]); ?>">    
+    <meta name="robots" content="<?php Swifost::go($page["robots"]); ?>"/>
+    <?php Swifost::push()->runDeed("template_meta"); ?>
+    <link rel="stylesheet" href="<?php Swifost::go($config["url"]); ?>/templates/sharper/assets/css/normalize.min.css">
+    <link rel="stylesheet" href="<?php Swifost::go($config["url"]); ?>/templates/sharper/assets/css/styles.css">
+    <!--[if (gte IE 6) & (lte IE 9)]>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+    <?php Swifost::push()->runDeed("template_header"); ?>
+
+</head>
+
+<body>
+
+<div class="Sharper-color--white">
+  <div class="Sharper-wrapper" >

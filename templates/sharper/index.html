@@ -1,0 +1,14 @@
+<?php include "header.html" ?>
+<?php include "extra.html" ?>
+
+<div class="Sharper-line">
+  <span class="Sharper-line--unique"></span>
+  <span class="Sharper-line--text">Information</span>
+</div>
+
+<article class="Sharper-post">
+    <?php Swifost::push()->runDeed("template_content_before"); ?>
+    <?php Swifost::go($page["content"]); ?>
+    <?php Swifost::push()->runDeed("template_content_after"); ?>
+</article>
+<?php include "footer.html" ?>

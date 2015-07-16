@@ -1,0 +1,17 @@
+<header>
+      <nav class="Sharper-menu">
+            <a <?php if(Swifost::push()->segetUrl(0) == "") { ?> class="active" <?php } ?> href="<?php echo $config["url"]; ?>">Home</a>
+            <a <?php if(Swifost::push()->segetUrl(0) == "blog") { ?> class="active" <?php } ?> href="<?php echo $config['url']; ?>/blog">Blog</a>
+            <a <?php if(Swifost::push()->segetUrl(0) == "about") { ?> class="active" <?php } ?> href="<?php echo $config["url"]; ?>/about">About</a>
+      </nav>
+      <h1><?php echo $config["title"]; ?></h1>  
+      <p><?php echo $config["description"]; ?></p>
+      <a class="Sharper-social facebook" href="https://facebook.com/<?php Swifost::go($config["social"]["facebook"]); ?>"><i class="fa fa-facebook"></i></a>
+      <a class="Sharper-social twitter" href="https://twitter.com/<?php Swifost::go($config["social"]["twitter"]); ?>"><i class="fa fa-twitter"></i></a>
+      <a class="Sharper-social linkedin" href="https://linkedin.com/in/<?php Swifost::go($config["social"]["linkedin"]); ?>"><i class="fa fa-linkedin"></i></a>
+      <a class="Sharper-social googleplus" href="<?php Swifost::go($config["social"]["googleplus"]); ?>"><i class="fa fa-google-plus"></i></a>
+      <a class="Sharper-social youtube" href="https://www.youtube.com/user/<?php Swifost::go($config["social"]["youtube"]); ?>"><i class="fa fa-youtube"></i></a>
+      <a class="Sharper-social github" href="https://github.com/<?php Swifost::go($config["social"]["github"]); ?>"><i class="fa fa-github"></i></a> 
+</header> 
+
+
