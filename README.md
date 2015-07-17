@@ -19,7 +19,8 @@ There are too many CMS online, but all provide publication of content and file m
 
 Because we love the web, our generation loves to create open source systems, that will make the web evolve faster. That's why Swifost is an open source project and it would be interesting for the development of projects in php, and make development easier, for everyone !
 
-
+### Documentation
+For more information have a look at the Swifost documentation at [http://swifost.com/documentation.html](http://swifost.com/documentation.html)
 
 -------------
 
