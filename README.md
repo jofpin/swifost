@@ -11,6 +11,10 @@ Lightweight static site generator in PHP without a database
 Version: 1.0.0
 ```
 
+### Important requirement
+
+You can boot into a PHP version 5.3.0 or higher server
+
 ### History
 
 When creating Swifost , my goal was to keep it simple and simplification in the development of plugins with easy API and creating templates .
