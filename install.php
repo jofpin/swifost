@@ -134,34 +134,6 @@ if (isset($_POST["swifost_install"])) {
     <style>
     @import "http://fonts.googleapis.com/css?family=Raleway|Open+Sans:400|RobotoDraft:400,500,700,300|Roboto:400,300,500,600,100";@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";*{margin:0;padding:0;box-sizing:border-box;outline:none}body{font-family:Roboto;background:#f5f5f5;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;border-top:.3em solid #e77249}::-webkit-scrollbar{-webkit-appearance:none;width:.3em;background-color:#cbcbcb}::-webkit-scrollbar-thumb{background:#E9573F} a {text-decoration: none;font-family: "Roboto" ,sans-serif;color: #3498db;}a:hover {color: #2980b9;}.Swifost-install{margin:0 auto;width:41em}.Swifost-install .Swifost-install--load{position:fixed;background:#e77249;text-align:center;top:0;left:0;right:0;bottom:0;height:100%;width:100%;font-size:100%;overflow:hidden !important;z-index:99999}.Swifost-install .Swifost-install--load---over{margin:9.23em auto}.Swifost-install .Swifost-install--load .Swifost-install--load---box{margin:2em auto}.Swifost-install .Swifost-install--load a{text-decoration:none}.Swifost-install .Swifost-install--load .Swifost-install--load---description,.Swifost-install--load .Swifost-install--load---url{color:#fff;font-family:"Roboto", sans-serif;font-weight:400;font-size:1.37em;margin-bottom:30px;letter-spacing:.1em}.Swifost-install .Swifost-install--load .Swifost-install--load---url{background-color:#fff;font-family:"RobotoDraft", sans-serif;font-size:1em;color:#e77249;padding:10px;border-radius:3px}.Swifost-install .Swifost-install--load .Swifost-install--load---url:hover{background-color:#E9573F;color:#fff;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}.Swifost-install--alert---body{margin:2.7em auto;max-width:27em;padding:20px;height:36.23em;border-radius:2px;background-color:#fff;box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.15)}.Swifost-install--alert{position:relative;margin:1em auto;width:25em;color:#fff;border-radius:2px;-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}.Swifost-install--alert.true{background-color:#19dd89}.Swifost-install--alert.false{background-color:#e74c3c}.Swifost-install--alert--icon{display:table-cell;vertical-align:middle;width:30px;padding:13px;text-align:center;background-color:rgba(255,255,255,0.2)}.Swifost-install--alert--icon > i{width:20px;font-size:20px}.Swifost-install--alert--text{display:table-cell;vertical-align:middle;font-family:"Raleway",sans-serif;line-height:1.2;padding:7px 10px 5px 13px}.Swifost-install--alert--text strong{font-family:"Roboto",sans-serif;font-weight:500}.hide{display:none !important}.Swifost-install--form:after{content:"";display:table;clear:both}.Swifost-install--form{max-width:27em;margin:2.7em auto;padding:20px;border-radius:2px;background-color:#fff;box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.15)}.Swifost-install--form---title{padding:20px 0;text-align:center}.Swifost-install--form---title h1{position:relative;font-family:"RobotoDraft",sans-serif;font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:3px;margin-bottom:20px}.Swifost-install--form---title h1:after{position:absolute;bottom:-13px;left:0;right:0;margin:auto;width:40px;height:4px;background:#f5f5f5;content:""}.Swifost-install--form---title p,p.alert-error{font-size:14px;margin:0 auto;color:#bbb;text-align:center;font-family:"Roboto",sans-serif;font-weight:400}p.alert-error{color:#444;font-size:1em}.Swifost-install--form---input{display:block;width:100%;border:0;background:#f5f5f5;border-radius:3px;font-family:"RobotoDraft",sans-serif;padding:15px;margin-bottom:10px;outline:0;font-size:11px;color:#555;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.Swifost-install--form---input:focus{background:#fff;box-shadow:#f5f5f5 4px 4px}::-webkit-input-placeholder{text-transform:uppercase}:-moz-placeholder{color:#ccc;letter-spacing:2px;text-transform:uppercase}::-moz-placeholder{color:#ccc;letter-spacing:2px;text-transform:uppercase}:-ms-input-placeholder{color:#ccc;letter-spacing:2px;text-transform:uppercase}.Swifost-install--form---body .btn,.Swifost-install--alert---body .btn{display:block;width:48%;margin-top:10px;float:left;background:#DA4453;padding:15px;border:0;font-size:.7rem;color:#fff;cursor:pointer;letter-spacing:2px;text-decoration:none;border-radius:2px;text-transform:uppercase;border-bottom:2px solid #BD3E31;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.Swifost-install--form---body .btn:hover{background:#ED5565}.Swifost-install--form---body .btn:active{background:#BD3E31;border-bottom:1px solid}.Swifost-install--form---body .btn.install,.Swifost-install--form---body a.btn.install,.Swifost-install--alert---body .btn{float:right;background:#4A89DC;color:#fff;border-bottom:2px solid #2980B9}.Swifost-install--form---body a.btn.install.continue-two,.Swifost-install--alert---body .btn{width:11em !important} a.btn.install.continue-two {  margin-top: 37px;}.Swifost-install--form---body .btn.install:hover,.Swifost-install--alert---body .btn:hover{background:#5D9CEC}.Swifost-install--form---body .btn.install:active,.Swifost-install--alert---body .btn:active{background:#2980B9;border-bottom:1px solid}::-webkit-input-placeholder{color:#ccc;letter-spacing:2px;text-transform:uppercase}.Swifost-install--form---select{position:relative;width:100%;margin:0 0 10px;overflow:hidden;font-family:"RobotoDraft",sans-serif;outline:none;background:#fff;box-shadow:#f5f5f5 4px 4px;font-size:.7em;border-radius:3px;user-select:none}.Swifost-install--form---select:after{font-family:"FontAwesome";font-weight:700;content:"\f107";position:absolute;top:0;right:12px;z-index:1;color:#bbb;cursor:pointer;line-height:40px;font-size:15px}.Swifost-install--form---select:active:after{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.Swifost-install--form---select select{position:relative;background:transparent;display:block;width:100%;font-family:"RobotoDraft",sans-serif;font-size:.7rem;color:#bbb;cursor:pointer;z-index:2;border:none;padding:15px;-moz-appearance:none;-webkit-appearance:none}.Swifost-install--form---select:focus,.Swifost-install--form---select:active{background:#f7f7f7;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.Swifost-install--form---select select option{font-family:"RobotoDraft",sans-serif;color:#666;font-size:1em}.Swifost-install--form---select select option[disabled]{color:#eee;text-shadow:none;border:none}
     </style>
-    <script>
-        $(document).ready(function() {
-
-            // var loader
-            var loadSwifost = $(".Swifost-install--load");
-
-            $('[data-box-install="contine"]').click(function() {
-               $('[data-box="1"]').addClass("hide");
-               $('[data-box="2"]').removeClass("hide");
-           });
-
-            $('[data-box-install="contine-two"]').click(function() {
-                $('[data-box="2"]').addClass("hide");
-                $('[data-box="3"]').removeClass("hide");
-            });
-
-            $(window).load(function() {
-                loadSwifost.fadeIn(); 
-                loadSwifost.queue(function(){ 
-                    setTimeout(function(){ 
-                        loadSwifost.dequeue(); 
-                        }, 2400); // time
-                });
-
-                loadSwifost.fadeOut("slow");
-            });
-        });
-    </script>
     <!--[if (gte IE 6) & (lte IE 9)]>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
@@ -463,5 +435,33 @@ if (isset($_POST["swifost_install"])) {
 
 </div>
 
+    <script>
+        $(document).ready(function() {
+
+            // var loader
+            var loadSwifost = $(".Swifost-install--load");
+
+            $('[data-box-install="contine"]').click(function() {
+               $('[data-box="1"]').addClass("hide");
+               $('[data-box="2"]').removeClass("hide");
+           });
+
+            $('[data-box-install="contine-two"]').click(function() {
+                $('[data-box="2"]').addClass("hide");
+                $('[data-box="3"]').removeClass("hide");
+            });
+
+            $(window).load(function() {
+                loadSwifost.fadeIn(); 
+                loadSwifost.queue(function(){ 
+                    setTimeout(function(){ 
+                        loadSwifost.dequeue(); 
+                        }, 2400); // time
+                });
+
+                loadSwifost.fadeOut("slow");
+            });
+        });
+    </script>
 </body>
 </html>
